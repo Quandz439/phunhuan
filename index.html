@@ -36,16 +36,13 @@
 .btn:focus-visible,.navlinks a:focus-visible{outline-offset:4px}
 @media(max-width:700px){.values-strip{margin-top:-18px}.values-grid{grid-template-columns:1fr;padding:12px;gap:0}.values-grid>div{border-right:0;border-bottom:1px solid var(--line);padding:14px 8p[...]
 
-/* logo image styling */
-.crest-img{width:46px;height:46px;border-radius:12px;object-fit:contain;background:#fff;padding:4px;display:inline-block}
-
 </style>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Bỏ qua điều hướng, đến nội dung chính</a>
 <div class="topbar"><div class="container"><span>✦ Học tập hôm nay · Kiến tạo ngày mai</span><span class="top-extra"><a href="https://thptphunhuan.hcm.edu.vn/" target="_blank" rel="no[...]
 <div class="nav-wrap"><nav class="container" aria-label="Điều hướng chính">
-<a class="brand" href="#home" aria-label="Trang chủ"><img src="https://timtruong.com.vn/wp-content/uploads/phunhuan-logo.jpg" alt="Logo Trường THPT Phú Nhuận" class="crest-img"><span><strong>TRƯỜNG THPT PHÚ NHUẬN</strong><small>TRI THỨC · BẢN LĨNH · TƯƠNG LAI</small></span>[...]
+<a class="brand" href="#home" aria-label="Trang chủ"><span class="crest">PN</span><span><strong>TRƯỜNG THPT PHÚ NHUẬN</strong><small>TRI THỨC · BẢN LĨNH · TƯƠNG LAI</small></span>[...]
 <button class="menu-btn" id="menuBtn" aria-label="Mở menu" aria-expanded="false">☰</button>
 <div class="navlinks" id="navLinks"><a href="#about">Giới thiệu</a><a href="#programs">Học tập</a><a href="#activities">Hoạt động</a><a href="#news">Tin tức</a><a class="nav-cta" hr[...]
 </nav></div>
@@ -58,7 +55,7 @@
 <section id="news"><div class="container"><div class="section-head"><span class="kicker">Thông tin nhà trường</span><h2>Cập nhật từ kênh chính thức.</h2><p>Để tránh nhầm lẫn[...]
 <section class="contact" id="contact"><div class="container contact-grid"><div class="contact-info"><span class="kicker">Kết nối</span><h2>Cùng bắt đầu hành trình của bạn.</h2><p>H[...]
 </main>
-<footer><div class="container"><div class="footer-main"><div class="footer-brand"><a class="brand" href="#home"><img src="https://timtruong.com.vn/wp-content/uploads/phunhuan-logo.jpg" alt="Logo Trường THPT Phú Nhuận" class="crest-img"><span><strong>TRƯỜNG THPT PHÚ NHUẬN</strong><smal[...]
+<footer><div class="container"><div class="footer-main"><div class="footer-brand"><a class="brand" href="#home"><span class="crest">PN</span><span><strong>TRƯỜNG THPT PHÚ NHUẬN</strong><smal[...]
 <script>
 const menuBtn=document.getElementById('menuBtn'),navLinks=document.getElementById('navLinks');
 menuBtn.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'×':'☰';});
